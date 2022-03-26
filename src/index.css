@@ -6,15 +6,34 @@
   box-sizing: border-box;
 }
 
+/**
+COLORS
+*/
+html {
+  --white: #ffff;
+  --black: #0000;
+  --bg-grey: #e5e5e5;
+  --input-grey: #f0f3f9;
+  --border-grey: #eaecf3;
+  --highlight-grey: #e0e0ed;
+  --text-grey: #76709f;
+  --large-text-color: #130b43;
+  --header-text-color: #5c5589;
+  --purple-highlight: #e1ebff;
+}
+
 body {
   margin: 0;
   /* font-family: "Inter", sans-serif; */
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-grey);
+  max-width: 100vw;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
