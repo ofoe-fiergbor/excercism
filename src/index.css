@@ -16,7 +16,7 @@ html {
   --input-grey: #f0f3f9;
   --border-grey: #eaecf3;
   --highlight-grey: #e0e0ed;
-  --text-grey: #76709f;
+  --text-grey: #76709f62;
   --large-text-color: #130b43;
   --header-text-color: #5c5589;
   --purple-highlight: #e1ebff;
@@ -28,12 +28,8 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg-grey);
+  background-color: #ebe9e96b;
   max-width: 100vw;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 
