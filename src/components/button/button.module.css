@@ -1,0 +1,25 @@
+.activeButton {
+  width: 114px;
+  height: 40px;
+  border: 1px solid var(--text-grey);
+  outline: none;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  background-color: var(--white);
+
+}
+
+.inactiveButton{
+  width: 114px;
+  height: 40px;
+  border: none;
+  outline: none;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+}
