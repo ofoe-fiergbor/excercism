@@ -1,0 +1,28 @@
+.searchContainer {
+    width: 50%;
+    height: 2.5em;
+    display: flex;
+    padding-left: 1%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--text-grey);
+    background-color: var(--input-grey);
+  }
+  .searchInput {
+    width: 95%;
+    padding: 5%;
+    border: none;
+    outline: none;
+    height: 2.5em;
+    height: var(--max-percentage);
+    background-color: var(--transparent);
+  }
+  
+  .searchIcon {
+    width: 5%;
+    border: none;
+    outline: none;
+    height: var(--max-percentage);
+    background-color: var(--transparent);
+  }

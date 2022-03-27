@@ -21,7 +21,7 @@ export const Navbar = () => {
         <img src={logo} alt="logo" className={styles.navbarLogo} />
         <div className={styles.navlinks}>
           {navlinks.map((link) => (
-            <Navlink text={link.text} icon={link.icon} active={link.active} />
+            <Navlink key={link.text} text={link.text} icon={link.icon} active={link.active} />
           ))}
         </div>
       </div>

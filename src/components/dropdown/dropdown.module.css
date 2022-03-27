@@ -1,0 +1,18 @@
+.dropdown {
+  width: 25%;
+  height: 2.5em;
+  display: flex;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid var(--text-grey);
+  background-color: var(--input-grey);
+}
+
+.select {
+  background-color: var(--transparent);
+  border: none;
+  outline: none;
+}
