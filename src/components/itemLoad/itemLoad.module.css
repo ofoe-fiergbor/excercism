@@ -1,0 +1,7 @@
+.itemLoad {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  padding-left: 50%;
+  /* justify-content: "center"; */
+}
